@@ -258,6 +258,3 @@ def DecryptFile(ciphertext_file, decrypted_file, key):
 				write_file.write(chr(i))
 	read_file.close()
 	write_file.close()
-
-EncryptFile("plaintext.txt", "encryptedtext.txt", "lukeimyourfather")
-DecryptFile("encryptedtext.txt", "decryptedtext.txt", "lukeimyourfather")
